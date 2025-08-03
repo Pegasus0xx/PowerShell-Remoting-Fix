@@ -14,7 +14,7 @@ RUN apt-get update && \
         libssl-dev \
         libcurl4-openssl-dev
 
-RUN wget https://github.com/PowerShell/PowerShell/releases/download/v7.5.1/powershell_7.5.1-1.deb_amd64.deb -O /tmp/pwsh.deb && \
+RUN wget https://github.com/PowerShell/PowerShell/releases/download/v7.5.2/powershell_7.5.2-1.deb_amd64.deb -O /tmp/pwsh.deb && \
     dpkg -i /tmp/pwsh.deb || apt-get install -f -y && \
     rm /tmp/pwsh.deb
 
