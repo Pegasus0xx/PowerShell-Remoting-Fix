@@ -1,6 +1,6 @@
 # PowerShell-Remoting-Fix
 
-This repository contains a Dockerfile that builds an image with PowerShell 7.5.1 bundled with all necessary libraries and configurations to fix the common PowerShell Remoting (Enter-PSSession) issues faced on Linux distributions like Kali Linux.
+This repository contains a Dockerfile that builds an image with PowerShell 7.5.2 bundled with all necessary libraries and configurations to fix the common PowerShell Remoting (Enter-PSSession) issues faced on Linux distributions like Kali Linux.
 
 ---
 
