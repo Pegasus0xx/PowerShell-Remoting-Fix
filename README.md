@@ -19,7 +19,7 @@ These problems prevent establishing the remote session successfully, blocking wo
 Solution in this Repo
 
 - Built on Debian Bullseye base image.
-- Official PowerShell 7.5.1 installation.
+- Official PowerShell 7.5.2 installation.
 - Installation of critical gss-ntlmssp library responsible for NTLM/Kerberos support.
 - Installation of required PowerShell modules: PSWSMan and WSMan.
 - Installation of OpenSSL libraries and dependencies.
